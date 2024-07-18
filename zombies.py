@@ -112,7 +112,7 @@ def test():
 	value = socket.socket(socket.AF_INET,socket.SOCK_DGRAM)
 	a[key] = value
 	#Nickname
-	nickname = random_line(open("/storage/emulated/0/nicknames.txt")).strip().encode().hex()
+	nickname = random_line(open("/zombies.py/nicknames.txt")).strip().encode().hex()
 	a[key].sendto(bytes.fromhex(RakNet.Creq1),(host,port))
 	data=a[key].recv(5000)
 	if data.find(bytes.fromhex("06"))==0:
