@@ -35,7 +35,7 @@ print("⠄⠄⠄⠄⠄⠘⠄⠄⠄⢀⡼⠛⠉⠄⠄⠄⠄⠄⠄⣼⣿⣿")
 time.sleep(0.1)
 print("⠄⠄⠄⠄⠄⡇⠄⠄⢀⠎⠄⠄⠄⠄FlackTeam")
 time.sleep(0.1)
-print("⠄⠄⠄⠄⢰⠃⠄⢀⠎⠄⠄⠄McBot (0.15 X 0.142")
+print("⠄⠄⠄⠄⢰⠃⠄⢀⠎⠄⠄⠄McBot (0.15 X 0.14")
 time.sleep(1)
 os.system("clear")
 
